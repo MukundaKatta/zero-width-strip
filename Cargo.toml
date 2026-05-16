@@ -1,0 +1,15 @@
+[package]
+name = "zero-width-strip"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Strip zero-width and bidi-control Unicode characters from text. Defends against invisible-payload prompt injection. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/zero-width-strip"
+homepage = "https://github.com/MukundaKatta/zero-width-strip"
+documentation = "https://docs.rs/zero-width-strip"
+readme = "README.md"
+keywords = ["unicode", "zero-width", "security", "prompt-injection", "sanitize"]
+categories = ["text-processing"]
+exclude = [".github/*", "target/*"]
